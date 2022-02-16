@@ -5,30 +5,47 @@
   </head>
   <body>
     <navbar id="navbar">
-      <ul>
-          <li><a href="#welcome-section">Welcome section</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contact me</a></li>
-      </ul>
-  </div>
-      
-  <section id="welcome-section">
-      <h1>Welcome to my portfolio</h1>
-      <p>This page is temporary and undergoing constant updates</p>
-  </section>
-  <section id="projects">
-      <div class="project-card">
-          <div class="project-title"></div>
-          <p>AAA</p>
-          <button role="button" href="#">See project</button>
-      </div>
-  </section>
-  <section id="contacts">
-      <div class="project-card">
-          <div class="project-title"></div>
-          <p>AAA</p>
-          <button role="button" href="#">See project</button>
-      </div>
-  </section>
+        <div id="nav-links">
+            <div id="info-link"><a href="#info">Info</a></div>
+            <div id="projects-link"><a href="#projects">Projects</a></div>
+            <div id="contacts-link"><a href="#contacts">Contacts</a></div>
+        </div>
+    </navbar>
+    <h1>Wonders never cease</h1>
+        
+    <section id="welcome-section">
+        <h2>Welcome</h2>
+        <p>This page is temporary and undergoing constant updates.<br>
+        As the title states, wondersd never cease: let's never stop contemplating the sky and look for new wonders.</p>
+    </section>
+    <section id="info">
+        <h2>About me</h2>
+        <p>This is M's portfolio: to update with knowledge, skills, experience and hobbies.</p>
+    </section>
+    <section id="projects">
+        <div class="project-card">
+            <div class="project-title"></div>
+            <h2>My projects</h2>
+            <p>Here are listed my latest projects.</p>
+            <button role="button" href="#">See project</button>
+        </div>
+    </section>
+    <section id="contacts">
+        <h2>Contact me</h2>
+        <form>
+            <label for="email">
+                <input type="email" name="enmail" placeholder="castor@geminimail.gem" required>
+            </label>
+            <label for="first-name">
+                <input type="text" name="first-name" placeholder="Castor" required>
+            </label>
+            <label for="last-name">
+                <input type="text" name="last-name" placeholder="Gemini" required>
+             </label>
+             <label for="organization">
+                <input type="text" name="organization" placeholder="Your organization or company">
+             </label>
+        </form>
+    </section>
   </body>
  </html>
